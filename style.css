@@ -1,6 +1,7 @@
 * {
   margin: 0px;
   text-decoration: none;
+  list-style: none;
 }
 
 header {
@@ -11,16 +12,17 @@ header {
   background-color: #d9d9d9;
 }
 
+header li {
+  display: inline;
+}
+
 .logo {
   padding: 50px 0px 50px 130px;
 }
 
-.horizontalnav {
-  list-style: none;
-  padding: 85px 27px 85px 0px;
-  margin-left: 595px;
-  line-height: 30px;
-  list-style: none;
+header nav {
+  display: inline-block;
+  margin-top: 50px;
 }
 
 .background-image {
@@ -43,4 +45,34 @@ img {
 
 .section-header h1 {
   margin-left: 40px;
+}
+
+.booksoftheweek {
+  margin-left: 130px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+}
+
+.indbook {
+  padding: 10px;
+}
+
+footer {
+  width: auto;
+  height: 248px;
+  margin-top: 160px;
+  background-color: #d9d9d9;
+}
+
+.footer-links {
+  margin-left: 130px;
+  padding-top: 106px;
+}
+
+footer div {
+  display: inline-block;
+  margin-left: 1127px;
 }
