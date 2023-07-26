@@ -4,6 +4,16 @@
   list-style: none;
 }
 
+@font-face {
+  font-family: "alk_life";
+  src: url(fonts/alk_life.ttf);
+}
+
+@font-face {
+  font-family: dejavusans;
+  src: url(fonts/bpg_dejavu_sans.ttf);
+}
+
 header {
   position: relative;
   display: flex;
@@ -28,18 +38,22 @@ header {
 
 .menu ul {
   float: right;
-  margin-left: 400px;
+  margin-left: 250px;
   margin-top: 85px;
 }
 
 .menu ul li {
   display: inline-block;
   float: left;
-  padding-left: 40px;
+  padding-left: 30px;
   color: #717276;
+  font-family: alk_life;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29.53px;
 }
 
-.activelink {
+.menu ul li :first-child {
   color: #a62b28;
 }
 
@@ -72,6 +86,10 @@ img {
 
 .section-header h1 {
   margin-left: 40px;
+  font-family: dejavusans;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 51.48px;
 }
 
 .booksoftheweek {
@@ -85,6 +103,28 @@ img {
 
 .indbook {
   padding: 10px;
+}
+
+.author {
+  margin-top: 50px;
+  font-family: dejavusans;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 38.61px;
+}
+
+.booktitle {
+  font-family: alk_life;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29.53px;
+}
+
+.price {
+  font-family: dejavusans;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 38.61px;
 }
 
 footer {
@@ -102,8 +142,13 @@ footer {
 footer div {
   display: inline-block;
   margin-left: 1127px;
+  margin-top: 71px;
 }
 
 footer ul li {
   color: #000000;
+  font-family: alk_life;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29.53px;
 }
