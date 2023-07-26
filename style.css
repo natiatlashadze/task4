@@ -12,8 +12,35 @@ header {
   background-color: #d9d9d9;
 }
 
-header li {
-  display: inline;
+.logo {
+  float: left;
+  display: inline-block;
+  width: auto;
+  line-height: 100px;
+}
+
+.menu {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  width: auto;
+}
+
+.menu ul {
+  float: right;
+  margin-left: 400px;
+  margin-top: 85px;
+}
+
+.menu ul li {
+  display: inline-block;
+  float: left;
+  padding-left: 40px;
+  color: #717276;
+}
+
+.activelink {
+  color: #a62b28;
 }
 
 .logo {
@@ -75,4 +102,8 @@ footer {
 footer div {
   display: inline-block;
   margin-left: 1127px;
+}
+
+footer ul li {
+  color: #000000;
 }
